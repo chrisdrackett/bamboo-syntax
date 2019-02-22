@@ -1,3 +1,24 @@
+atom-text-editor
+  .syntax--source.syntax--ts
+  .syntax--import-equals
+  .syntax--string,
+atom-text-editor
+  .syntax--source.syntax--tsx
+  .syntax--import-equals
+  .syntax--string,
+atom-text-editor .syntax--source.syntax--ts .syntax--import .syntax--string,
+atom-text-editor .syntax--source.syntax--tsx .syntax--import .syntax--string,
+atom-text-editor
+  .syntax--source.syntax--ts
+  .syntax--triple-slash
+  .syntax--string,
+atom-text-editor
+  .syntax--source.syntax--tsx
+  .syntax--triple-slash
+  .syntax--string {
+  text-decoration: none;
+}
+
 .syntax--comment {
   color: @gray;
 }
@@ -46,7 +67,7 @@
 
     &.syntax--type {
       &.syntax--class {
-        color: @orange
+        color: @orange;
       }
     }
   }
