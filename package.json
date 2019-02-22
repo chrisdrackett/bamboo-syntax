@@ -7,7 +7,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/bamboo-syntax",
+  "repository": "https://github.com/chrisdrackett/bamboo-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
